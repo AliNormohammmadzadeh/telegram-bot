@@ -25,7 +25,7 @@ def process_request(request: request) -> dict:
     
     body = request.get_json()
     headers = request.headers
-    secret_token = headers['X-Telegram-Bot-Api-Secret-Token']
+    secret_token = headers['HEADER_TOKEN']
 
     message = ''
     is_bot = True
