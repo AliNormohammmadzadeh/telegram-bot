@@ -25,7 +25,7 @@ def process_request(request: request) -> dict:
     
     body = request.get_json()
     headers = request.headers
-    secret_token = headers['5880984156:AAHFvEjR0In9MMFskVVAak02r3hgCnz8IXY']
+    secret_token = '5880984156:AAHFvEjR0In9MMFskVVAak02r3hgCnz8IXY'
 
     message = ''
     is_bot = True
